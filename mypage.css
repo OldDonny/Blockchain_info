@@ -1,0 +1,29 @@
+nav{
+    position: relative;
+
+    margin-left:  30%;
+
+}
+
+nav button{
+    margin: 5 6em;
+    
+}
+
+.imgwrapper img{
+    position: relative;
+
+    .}
+.jumbotron{
+    text-align: center;
+    background-color: #5f686b;
+}
+
+.img-thumbnail{
+    max-height: 20em
+}
+
+footer{
+    height: 55em;
+    text-align: center;
+}
