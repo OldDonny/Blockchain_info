@@ -1,29 +1,64 @@
-nav{
-    position: relative;
-
-    margin-left:  30%;
-
+*{
+    box-sizing: border-box;
 }
 
-nav button{
-    margin: 5 6em;
-    
+#nav{
+    text-align: center;
+}
+
+.nav_button {
+    position: relative;
+    top: 6px;
+    display: inline-block;
+    margin: 0 32px;
+    border: 2px solid black;
+    padding: 12px 35px
 }
 
 .imgwrapper img{
     position: relative;
+    width: 90%;
+    height: 80%;
+    max-height: 80%;
+    
 
-    .}
-.jumbotron{
+    }
+.img_txt{
+    position: relative;
+    bottom: 25em;
+    font-family: 'Libre Barcode 39 Text', cursive;
     text-align: center;
-    background-color: #5f686b;
+    color: #d6f4f9;
+    
+    
 }
+.jumbotron{
+   
+    text-align: center;
+    background-color: black;
+}
+
 
 .img-thumbnail{
-    max-height: 20em
+    max-height: 20em;
+    
 }
 
-footer{
-    height: 55em;
+.info{
+    font-family: 'EB Garamond', serif;
+    height: 25em;
     text-align: center;
+
+}
+
+.crypto_header{
+    font-size: 35px;
+}
+
+.works_button{
+    padding: 1em 5em;
+}
+
+.info .col-xs-4{
+    font-size: 16px
 }
