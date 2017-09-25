@@ -3,72 +3,138 @@
          <title>Reed Walker</title>
         
          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
-        <link rel="stylesheet" 
-        href="mypage.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+         <link rel="stylesheet" href="mypage.css">
+         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Libre+Barcode+39+Text" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
        
     </head>
     
     <body>
-        <div id="nav">
-            <ul>
-                <li class="nav_button"><a href="">Smart Contracts</a></li>
-                <li class="nav_button"><a href="">Invest</a></li>
-                <li class="nav_button"><a href="">Why?</a></li>
-                <li class="nav_button"><a href="">Innovaters</a></li>
-            
-            
-            </ul>
-        </div>
-        
-        <div class="jumbotron">
-            
-            <div class="imgwrapper">
-                <img src="images/decentralize%20.jpg"/>
-                <div class="img_txt"><h1>Decentralize</h1></div>
-            </div>
-        </div>    
-            <div class="info">
-                <div class="crypto_header"><p>These are the big three, Invest while you can!</p>
-                </div>
-                <div class="col-xs-4">
-                    <img class="img-thumbnail" src="images/ethereum.png"/>
-                 <div class="works">
-                     <h4>Ethereum</h4>
-                    
-                     <button class="works_button">LEARN</button>
-            
-                </div>
-                </div>
-                <div class="col-xs-4">
-                    <img class="img-thumbnail" src="images/bitcoin2.png">
-                    <div class="works">
-                    <img src=""/>
-                     <h4>Bitcoin</h4>
-                   
-                        <button class="works_button">LEARN</button>
-                    </div>
-                 </div>
-                        <div class="col-xs-4">
-                            <img class="img-thumbnail" src="images/monero1.png">
-                            <div class="works">
-                                <h4>Monero</h4>  
-                           
-                                <button     class="works_button">LEARN</button>
-            
-                            </div>
-                
-                </div>
-                
+
            
-            
+
+  
+
+        <div class="parallax-container">
+             <div class="parallax"><img src="images/grey.jpg">
             </div>
-            
+            <div class="carousel">
+                    <a class="carousel-item" href="#one!"><img src="images/eoss.gif"></a>
+                    <a class="carousel-item" href="#two!"><img src="images/tenx.png"></a>
+                    <a class="carousel-item" href="#three!"><img src="images/omise.svg"></a>
+                    
+                  </div>
 
-        
+            <div class="container center head">
+                <p>Learn the Blockchain because it is the future</p>
+            </div>
 
-       
-        
+
+            <a href="#!" class="btn grey" onclick="Materialize.showStaggeredList('#papers')">Ethereum Papers</a>
+            <ul id="papers" >
+                <li><a href="https://github.com/bneiluj/Ethereum_White_Paper_PDF/blob/master/ethereum_white_paper_18052016.pdf">White Paper</a></li>
+                <li><a  id="yellow" href="http://gavwood.com/paper.pdf">Yellow Paper</a></li>
+            </ul>      
+
+          
+   
+        </div>
+
+        <div class=" row info_row">
+                
+                <div class=" info_tab ">
+                   
+                    
+                       <div class="col s12">
+
+                            <a class="btn grey" onclick="Materialize.toast('Time to make some money. Sign up for an exchange and start trading. Risk is Reward', 4000)">$$$$$</a>
+                
+                       </div>
+                       <p class="center info_head">Exchanges</p>
+                      
+                    <div class="col s12 m6">
+                        <div class="card grey darken-3">
+                        <div class="card-content white-text">
+                            <span class="card-title">GDAX</span>
+                            <p>US based digital asset exchange with trading FIX API and REST API. Easy to deposit funds with Coinbase wallet, bank transfer, wire transfer, or digital currency. They offer Bitcoin exchange, Ethereum exchange, and Litecoin Exchange</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://www.gdax.com/">Start Tradding</a>
+                        </div>
+                        </div>
+                </div>
+                    <div class="col s12 m6">
+                            <div class="card grey darken-3">
+                                <div class="card-content white-text">
+                                <span class="card-title">Poloniex</span>
+                                <p>Poloniex is a US-based digital asset exchange offering maximum security and advanced trading features. Allowing for trading between multiple curriencies and coins</p>
+                                </div>
+                                <div class="card-action">
+                                <a href="https://poloniex.com/">Start Tradding</a>
+                                </div>
+                            </div>
+                     </div>
+
+
+             </div>
+                        
+               
+            </div> 
+         
+            <div class="container ethereum_info">
+                  <div class="container center head">
+                       <p>Why Ethereum?</p>
+                   </div>
+                   <div class="container">
+                       <img class="img-responsive" src="images/ethereum1.jpeg">
+                   </div>
+
+                   
+                   <ul class="collapsible popout" data-collapsible="accordion">
+                        <li>
+                                <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+                                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                        
+                        </li>
+                        <li>
+                          <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+                          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                        </li>
+                        <li>
+                          <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+                          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                        </li>
+                      </ul>
+                            
+
+
+                    <div class="row">
+                    <div class="container col s3 push-s3">
+                            <p class="flow-text">“In essence, the fundamental benefits of investing into Ethereum is the cryptographic nature, it’s anonymity, it’s universality, it’s divisibility, and most specifically, it’s coding language which specifically targets it for automated transactions and contracts" <p class="names">-Jeff Reed</p> </p>
+                     </div>
+                     <div class="container col s3 push-s4">
+                         <p class="flow-text">“Crypto is all about incentives on various levels,” he said. “You cannot reason about the security of blockchain consensus protocols without incentives.”<p class="names">-Vitalik Buterin</p></p>
+                     </div>
+                     </div>
+
+                    
+             </div>
+
+
+
+      
+
+           
+                      
+
+
+   
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+            <script type="text/javascript" src="mypage.js"></script>
     </body>
 </html>
